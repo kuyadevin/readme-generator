@@ -7,6 +7,47 @@ const questions = [
         type: 'input',
         message: 'What is the title of your project',
         name: 'title'
+    },
+    {
+        type:'input',
+        message: 'What is the description of your project?',
+        name:'description'
+
+    },
+    {
+        type: 'input',
+        message: 'Is there anything that needs to be installed?',
+        name:'installation'
+    },
+    {
+        type: 'input',
+        message: 'What are the insturctions on how to run this program?',
+        name: 'instructions'
+    },
+    {
+        type:'input',
+        message: 'What technologies did you use?',
+        name:'technology'
+    },
+    {
+        type:'list',
+        message:'What kind of license would you like?',
+        name:'license'
+    },
+    {
+        type: 'input',
+        message: 'What is your GitHub user name?',
+        name: 'GitHub'
+    },
+    {
+        type: 'input',
+        message: 'What is your e-mail?',
+        name: 'e-mail'
+    },
+    {
+        type:'input',
+        message: 'Who worked on this project?',
+        name: 'collaborators'
     }
 ];
 
