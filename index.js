@@ -32,7 +32,11 @@ const questions = [
     {
         type:'list',
         message:'What kind of license would you like?',
-        name:'license'
+        name:'license',
+        choices: [
+            'MIT',
+            
+        ]
     },
     {
         type: 'input',
