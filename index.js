@@ -50,12 +50,12 @@ const questions = [
     {
         type: 'input',
         message: 'What is your e-mail?',
-        name: 'e-mail'
+        name: 'email'
     },
     {
         type:'input',
         message: 'Who worked on this project?',
-        name: 'collaborators'
+        name: 'cotributions'
     }
 ];
 

@@ -21,13 +21,27 @@ function generateMarkdown(data) {
 *[Installation](#installation)
 *[Usage](#usage)
 *[License](#license)
-*[Contributing](#contributing)
+*[Contributions](#contributions)
 *[Tests](#tests)
 *[Questions](#questions)
 
 ### Installation
 ${data.installation}
 
+### Useage 
+${data.usage}
+
+### License
+${data.license}
+
+### Contributions
+${data.contributions}
+
+### Tests
+
+### Questions
+${data.gitHub}
+${data.email}
 `;
 }
 
