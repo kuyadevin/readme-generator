@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require("fs");
+const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -16,8 +17,8 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Is there anything that needs to be installed?',
-        name:'installation'
+        message: 'How do you use your application?',
+        name:'usage'
     },
     {
         type: 'input',
@@ -35,7 +36,10 @@ const questions = [
         name:'license',
         choices: [
             'MIT',
-            
+            'Eclispe',
+            'GNU GPL v3',
+            'IBM'
+
         ]
     },
     {
@@ -57,7 +61,12 @@ const questions = [
 
 // TODO: Create a function to write README file
 // fs append here
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    // Write Markdown
+    const markdown = generateMarkdown(data);
+    fs.writeToFile('ReadMe.md',markdown)
+    
+}
 
 // TODO: Create a function to initialize app
 function init() {}
