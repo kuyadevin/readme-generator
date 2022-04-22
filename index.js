@@ -30,9 +30,9 @@ const questions = [
         message:'What kind of license would you like?',
         name:'license',
         choices: [
-            'MIT',
-            'Eclispe',
-            'GNU GPL v3',
+            'MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
+            'Eclispe [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)',
+            'GNU GPL v3 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)',
             'None'
         ]
     },
