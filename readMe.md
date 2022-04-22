@@ -40,7 +40,11 @@ $ npm init -y
 
 ## Technology Used
 
-All javascript
+All 
+
+## Problems Faced
+
+One thing I would do better next time is use the functions to generate the license based on just picking MIT, Eclipse, etc. I was having a hard time with that so I just hardcoded the answers, hence why it looks a little funky. I let the word in front of the license to make it easier for the user to choose a license in the command line.
 
 ## Contributers
 
