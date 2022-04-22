@@ -12,7 +12,8 @@ in your command line after you have install all of the following node modules.
 
 ## Video Instructions
 
-![Video](./Untitled_%20Apr%2021%2C%202022%2010_30%20PM%20(2).webm)
+![Video](./ReadMe%20Generator.mp4)
+[Google Drive Video Link]()
 
 ## Prerequisites
 
