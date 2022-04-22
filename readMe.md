@@ -12,8 +12,12 @@ in your command line after you have install all of the following node modules.
 
 ## Video Instructions
 
-* [Video](./ReadMeGeneratorFinal.mp4)
+* ![Video](./ReadMeGeneratorFinal.mp4)
 * [Google Drive Video Link](https://drive.google.com/file/d/1Bp3mPFpEIKcBt1tXYt-r6bBJg9YP9tXv/view)
+
+## Screenshot
+
+![Screenshot](Screenshot%20(57).png)
 
 ## Prerequisites
 
