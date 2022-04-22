@@ -1,4 +1,4 @@
-# Read Me 
+# Read Me Generator 
 
 The following application is Read Me markdown generator only using a terminal and command lines.
 
