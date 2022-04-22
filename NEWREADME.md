@@ -1,31 +1,31 @@
-# Good Read Me Generator
+# Read Me Generator
 
 ## Description
-  ReadMe generated using only command lines
+  A read me generator that creates a readme only using terminal and command lines
 
 ## Table of Contents
-*[Installation](#installation)
-*[Usage](#usage)
-*[License](#license)
-*[Contributions](#contributions)
-*[Tests](#tests)
-*[Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributions](#contributions)
+* [Tests](#tests)
+* [Questions](#questions)
 
 ### Installation
-We need to install node, path, inquirer, fs, and init
+Make sure you have node, inquirer, fs , path, and init
 
 ### Useage 
-You use the application by answering the questions you are prompted
+You use this application by answering the question when prompted. THe answers youy type will populate the read me.
 
 ### License
 MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ### Contributions
-Devin Nguyen
+Devin
 
 ### Tests
 
 ### Questions
-My GitHub user name is : kuyadevin
-Any additional questions? Pleasse feel free to e-mail me at: 
-devinnguyen@ucsb.edu
+- My GitHub user page is : [GitHub](https://github.com/kuyadevin)
+- Any additional questions? Pleasse feel free to e-mail me at: 
+devinnguyen@yahoo.com
