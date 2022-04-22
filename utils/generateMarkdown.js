@@ -1,12 +1,18 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 //var license= `${data.license}`
-var licenseLink = ''
 function renderLicenseBadge(license) {
-  if (license !== 'None'){
-    return `![GitHub license](https://img.shields.io/badge/License-${license}-blue.svg)`;
+  if  (license === 'MIT'){
+    return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]' ;
   }
-  return ''
+  else if (license === 'Ecplise'){
+    return '[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)]'
+  } 
+  else if (license === 'GNU GPL v3'){
+    return '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]'
+  } else {
+    return ''
+  }
 }
 
 // TODO: Create a function that returns the license link
@@ -27,7 +33,10 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  licenseSection= renderLicenseBadge.val + renderLicenseLink
+  
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -51,7 +60,7 @@ ${data.installation}
 ${data.usage}
 
 ### License
-${licenseBadge}
+${licenseSection}
 
 ### Contributions
 ${data.contributions}
@@ -59,7 +68,7 @@ ${data.contributions}
 ### Tests
 
 ### Questions
-${data.gitHub}
+My GitHub user name is : ${data.GitHub}
 Any additional questions? Pleasse feel free to e-mail me at: 
 ${data.email}
 `;

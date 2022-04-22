@@ -23,7 +23,7 @@ const questions = [
     {
         type: 'input',
         message: 'What are the insturctions on how to install and run this program?',
-        name: 'instructions'
+        name: 'installation'
     },
     {
         type:'list',
