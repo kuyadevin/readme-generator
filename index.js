@@ -33,7 +33,7 @@ const questions = [
             'MIT',
             'Eclispe',
             'GNU GPL v3',
-            'IBM'
+            'None'
         ]
     },
     {

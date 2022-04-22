@@ -3,13 +3,10 @@
 //var license= `${data.license}`
 var licenseBadge = " "
 function renderLicenseBadge(license) {
-  if (license === 'MIT'){
-licenseBadge = '(https://img.shields.io/badge/License-MIT-yellow.svg)'
-  } else if (license === 'Eclipse'){
-    licenseBadge = '(https://img.shields.io/badge/License-EPL_1.0-red.svg)'
-  } else if (license === 'GNU GPL v3'){
-    licenseBadge = '(https://img.shields.io/badge/License-GPLv3-blue.svg)'
-  } 
+  if (license !== 'None'){
+    return `![GitHub license](https://img.shields.io/badge/License-${license}-blue.svg)`;
+  }
+  return ''
 }
 
 // TODO: Create a function that returns the license link
