@@ -1,6 +1,16 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+//var license= `${data.license}`
+var licenseBadge = " "
+function renderLicenseBadge(license) {
+  if (license === 'MIT'){
+licenseBadge = '(https://img.shields.io/badge/License-MIT-yellow.svg)'
+  } else if (license === 'Eclipse'){
+    licenseBadge = '(https://img.shields.io/badge/License-EPL_1.0-red.svg)'
+  } else if (license === 'GNU GPL v3'){
+    licenseBadge = '(https://img.shields.io/badge/License-GPLv3-blue.svg)'
+  } 
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -32,7 +42,7 @@ ${data.installation}
 ${data.usage}
 
 ### License
-${data.license}
+${licenseBadge}
 
 ### Contributions
 ${data.contributions}
@@ -41,6 +51,7 @@ ${data.contributions}
 
 ### Questions
 ${data.gitHub}
+Any additional questions? Pleasse feel free to e-mail me at: 
 ${data.email}
 `;
 }
