@@ -12,8 +12,8 @@ in your command line after you have install all of the following node modules.
 
 ## Video Instructions
 
-![Video](./ReadMe%20Generator.mp4)
-[Google Drive Video Link]()
+*[Video](./ReadMe%20Generator.mp4)
+*[Google Drive Video Link](https://drive.google.com/file/d/1E7-N_edGCuV-BAaSLB8nkibCNKKbhlYM/view)
 
 ## Prerequisites
 
